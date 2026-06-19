@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="TNR HR Business Solutions - Professional HR consulting, payroll services, recruitment, and workplace hearings in South Africa. Amplifying your business capacity.">
+<meta name="keywords" content="HR consulting South Africa, payroll services, recruitment, workplace hearings, labour law compliance, HR solutions">
+<meta name="author" content="TNR HR Business Solutions">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="TNR HR Business Solutions | Amplifying Your Business Capacity">
+<meta property="og:description" content="Professional HR consulting, payroll services, and recruitment solutions nationwide in South Africa.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.tnrconsulting.co.za">
+<title>TNR HR Business Solutions | HR Consulting & Payroll Services South Africa</title>
+<link rel="icon" type="image/png" href="images/Screenshot 2026-02-17 021736.png">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "TNR HR Business Solutions",
+  "image": "https://www.tnrconsulting.co.za/images/logo.png",
+  "@id": "https://www.tnrconsulting.co.za",
+  "url": "https://www.tnrconsulting.co.za",
+  "telephone": "+27630564045",
+  "email": "Pearl@tnrconsulting.co.za",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "18 The Boulevard, West Office Park",
+    "addressLocality": "Westville",
+    "addressRegion": "KwaZulu-Natal",
+    "postalCode": "3629",
+    "addressCountry": "ZA"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -29.8422,
+    "longitude": 30.9194
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "08:00",
+    "closes": "17:00"
+  },
+  "priceRange": "$$",
+  "areaServed": {"@type": "Country", "name": "South Africa"},
+  "serviceType": ["HR Consulting","Payroll Services","Workplace Hearings","Recruitment","Training"]
+}
+</script>
+
+<style>
+:root {
+  --cream: #f9f9f9;
+  --cream-dark: #e8e8e8;
+  --ink: #1a1a1a;
+  --ink-light: #374151;
+  --ink-faint: #6b7280;
+  --border: #c0c0c0;
+  --accent: #1a3a5c;
+  --serif: 'Cormorant Garamond', Georgia, serif;
+  --sans: 'Inter', -apple-system, sans-serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--cream);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-weight: 300;
+  line-height: 1.7;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection { background: var(--ink); color: var(--cream); }
+
+/* ===== NAVIGATION ===== */
+.site-nav {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  padding: 28px 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  mix-blend-mode: difference;
+  transition: background 0.6s ease, padding 0.6s ease;
+}
+.site-nav.scrolled {
+  background: rgba(245,243,239,0.92);
+  backdrop-filter: blur(12px);
+  mix-blend-mode: normal;
+  padding: 18px 48px;
+  border-bottom: 1px solid var(--border);
+}
+.site-nav.scrolled .nav-logo,
+.site-nav.scrolled .nav-links a { color: var(--ink); }
+
+.nav-logo {
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--cream);
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+.nav-links a {
+  font-size: 0.7rem;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--cream);
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 4px;
+  transition: color 0.4s ease;
+}
+.nav-links a::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0;
+  width: 0; height: 1px;
+  background: currentColor;
+  transition: width 0.5s cubic-bezier(0.22,1,0.36,1);
+}
+.nav-links a:hover::after { width: 100%; }
+
+.nav-cta {
+  font-size: 0.65rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--cream);
+  border: 1px solid rgba(245,243,239,0.3);
+  padding: 10px 24px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+.nav-cta:hover {
+  background: var(--cream);
+  color: var(--ink);
+  border-color: var(--cream);
+}
+.site-nav.scrolled .nav-cta {
+  color: var(--ink);
+  border-color: var(--ink);
+}
+.site-nav.scrolled .nav-cta:hover {
+  background: var(--ink);
+  color: var(--cream);
+}
+
+.mobile-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--cream);
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.site-nav.scrolled .mobile-toggle { color: var(--ink); }
+
+/* ================================================================
+   HERO WITH 3D SCROLL-DRIVEN BUILDING
+   ================================================================ */
+.hero-3d {
+  position: relative;
+  height: 100vh;
+  min-height: 700px;
+  overflow: hidden;
+  background: #e8e4de;
+  perspective: 1200px;
+  perspective-origin: 50% 50%;
+}
+
+/* Background layer */
+.hero-bg-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(180deg, #e8e4de 0%, #d5cfc7 60%, #c8c2b8 100%);
+}
+
+/* 3D Building Scene Container */
+.building-scene {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  height: 800px;
+  transform: translate(-50%, -50%);
+  transform-style: preserve-3d;
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* The main building image with 3D transforms */
+.building-main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.building-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: contrast(1.1);
+}
+
+/* Building shadow/reflection */
+.building-shadow {
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  width: 80%;
+  height: 40px;
+  transform: translateX(-50%) rotateX(90deg);
+  background: radial-gradient(ellipse, rgba(0,0,0,0.15) 0%, transparent 70%);
+  filter: blur(20px);
+  opacity: 0.6;
+}
+
+/* Secondary building layer (parallax) */
+.building-secondary {
+  position: absolute;
+  top: 10%;
+  right: -20%;
+  width: 300px;
+  height: 400px;
+  transform-style: preserve-3d;
+  opacity: 0.4;
+  will-change: transform;
+}
+
+.building-secondary img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: contrast(1.2) brightness(0.8);
+}
+
+/* Tertiary building layer (far back) */
+.building-tertiary {
+  position: absolute;
+  top: 20%;
+  left: -15%;
+  width: 250px;
+  height: 350px;
+  transform-style: preserve-3d;
+  opacity: 0.25;
+  will-change: transform;
+}
+
+.building-tertiary img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: contrast(1.3) brightness(0.6);
+}
+
+/* Ground plane */
+.ground-plane {
+  position: absolute;
+  bottom: 0;
+  left: -50%;
+  right: -50%;
+  height: 200px;
+  background: linear-gradient(to bottom, transparent 0%, rgba(180,175,168,0.3) 100%);
+  transform: rotateX(70deg);
+  transform-origin: bottom center;
+  z-index: 1;
+}
+
+/* Hero text overlay */
+.hero-text-overlay {
+  position: absolute;
+  bottom: 80px;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  text-align: center;
+  padding: 0 24px;
+}
+
+.hero-eyebrow {
+  display: block;
+  font-family: var(--sans);
+  font-size: 0.65rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 24px;
+  opacity: 0;
+  animation: fadeUp 1.5s ease 0.5s forwards;
+}
+
+.hero-title {
+  font-family: var(--serif);
+  font-size: clamp(3.5rem, 10vw, 7.5rem);
+  font-weight: 300;
+  line-height: 0.95;
+  color: var(--ink);
+  letter-spacing: -2px;
+  margin-bottom: 20px;
+  opacity: 0;
+  animation: fadeUp 1.8s ease 0.8s forwards;
+}
+.hero-title em {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.hero-subtitle {
+  font-family: var(--serif);
+  font-size: clamp(1rem, 2.5vw, 1.4rem);
+  font-weight: 300;
+  color: var(--ink-light);
+  letter-spacing: 1px;
+  line-height: 1.6;
+  opacity: 0;
+  animation: fadeUp 1.5s ease 1.2s forwards;
+}
+
+.hero-scroll {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  opacity: 0;
+  animation: fadeIn 2s ease 2s forwards;
+}
+.hero-scroll span {
+  font-size: 0.55rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+.scroll-line {
+  width: 1px;
+  height: 48px;
+  background: linear-gradient(to bottom, var(--ink-faint), transparent);
+  animation: scrollPulse 2.5s ease-in-out infinite;
+}
+
+@keyframes scrollPulse {
+  0%,100% { opacity: 0.4; transform: scaleY(1); }
+  50% { opacity: 1; transform: scaleY(0.7) translateY(8px); }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* ================================================================
+   EDITORIAL SECTIONS
+   ================================================================ */
+.editorial {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+.section-label {
+  font-family: var(--sans);
+  font-size: 0.6rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 24px;
+  display: block;
+}
+
+/* Intro Block */
+.intro-block {
+  padding: 160px 0 120px;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.intro-block h2 {
+  font-family: var(--serif);
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 300;
+  line-height: 1.3;
+  color: var(--ink);
+  margin-bottom: 36px;
+}
+.intro-block h2 em {
+  font-style: italic;
+  color: var(--ink-light);
+}
+.intro-block p {
+  font-size: 0.95rem;
+  color: var(--ink-light);
+  line-height: 2;
+  max-width: 560px;
+  margin: 0 auto;
+}
+
+/* Split Layouts */
+.split-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: center;
+  padding: 100px 0;
+}
+.split-section.reverse { direction: rtl; }
+.split-section.reverse > * { direction: ltr; }
+
+.split-image {
+  position: relative;
+  overflow: hidden;
+  transform-style: preserve-3d;
+}
+.split-image img {
+  width: 100%;
+  height: 520px;
+  object-fit: cover;
+  filter: contrast(1.05);
+  transition: transform 8s cubic-bezier(0.22,1,0.36,1), filter 1.5s ease;
+}
+.split-image:hover img {
+  transform: scale(1.03);
+  filter: contrast(1.05);
+}
+.split-image::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent 60%, rgba(245,243,239,0.4) 100%);
+  pointer-events: none;
+}
+
+.split-text h3 {
+  font-family: var(--serif);
+  font-size: clamp(1.4rem, 3vw, 2rem);
+  font-weight: 400;
+  line-height: 1.3;
+  color: var(--ink);
+  margin-bottom: 28px;
+}
+.split-text h3 em { font-style: italic; font-weight: 300; }
+.split-text p {
+  font-size: 0.9rem;
+  color: var(--ink-light);
+  line-height: 2;
+  margin-bottom: 20px;
+}
+.split-text .meta {
+  font-family: var(--sans);
+  font-size: 0.6rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+}
+
+/* Stats Bar */
+.stats-bar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  padding: 100px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  margin: 80px 0;
+}
+.stat {
+  text-align: center;
+}
+.stat-number {
+  font-family: var(--serif);
+  font-size: clamp(2.5rem, 5vw, 3.5rem);
+  font-weight: 300;
+  color: var(--ink);
+  line-height: 1;
+  margin-bottom: 12px;
+}
+.stat-label {
+  font-size: 0.6rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+/* Services Grid */
+.services-section {
+  padding: 120px 0;
+}
+.services-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.services-header h2 {
+  font-family: var(--serif);
+  font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+  font-weight: 300;
+  margin-bottom: 16px;
+}
+.services-header p {
+  font-size: 0.9rem;
+  color: var(--ink-light);
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+  background: var(--border);
+}
+.service-card {
+  background: var(--cream);
+  padding: 56px 48px;
+  position: relative;
+  overflow: hidden;
+  transition: background 0.6s ease;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.service-card:hover {
+  background: var(--cream-dark);
+}
+.service-num {
+  font-family: var(--sans);
+  font-size: 0.55rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 24px;
+  display: block;
+}
+.service-card h3 {
+  font-family: var(--serif);
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--ink);
+  margin-bottom: 16px;
+  transition: color 0.4s ease;
+}
+.service-card p {
+  font-size: 0.82rem;
+  color: var(--ink-light);
+  line-height: 1.8;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.8s cubic-bezier(0.22,1,0.36,1), opacity 0.6s ease, margin-top 0.6s ease;
+}
+.service-card:hover p {
+  max-height: 120px;
+  opacity: 1;
+  margin-top: 8px;
+}
+.service-arrow {
+  position: absolute;
+  bottom: 32px;
+  right: 36px;
+  font-size: 1rem;
+  color: var(--ink-faint);
+  opacity: 0;
+  transform: translateX(-8px);
+  transition: all 0.5s cubic-bezier(0.22,1,0.36,1);
+}
+.service-card:hover .service-arrow {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Full-Width Image Quote */
+.quote-section {
+  position: relative;
+  height: 70vh;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin: 120px 0;
+}
+.quote-section img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.35);
+}
+.quote-overlay {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  padding: 0 48px;
+  max-width: 800px;
+}
+.quote-overlay blockquote {
+  font-family: var(--serif);
+  font-size: clamp(1.4rem, 3.5vw, 2.2rem);
+  font-weight: 300;
+  font-style: italic;
+  color: var(--cream);
+  line-height: 1.5;
+  margin-bottom: 32px;
+}
+.quote-overlay cite {
+  font-family: var(--sans);
+  font-size: 0.65rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: rgba(245,243,239,0.5);
+  font-style: normal;
+}
+
+/* CTA Section */
+.cta-section {
+  padding: 160px 0;
+  text-align: center;
+  position: relative;
+}
+.cta-section::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 50%;
+  transform: translateX(-50%);
+  width: 1px;
+  height: 80px;
+  background: var(--border);
+}
+.cta-section h2 {
+  font-family: var(--serif);
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  font-weight: 300;
+  color: var(--ink);
+  margin-bottom: 20px;
+}
+.cta-section p {
+  font-size: 0.9rem;
+  color: var(--ink-light);
+  margin-bottom: 48px;
+}
+.cta-btn {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--ink);
+  border: 1px solid var(--ink);
+  padding: 16px 48px;
+  text-decoration: none;
+  transition: all 0.5s cubic-bezier(0.22,1,0.36,1);
+}
+.cta-btn:hover {
+  background: var(--ink);
+  color: var(--cream);
+}
+
+/* Clients Marquee */
+.clients-section {
+  padding: 80px 0 120px;
+  overflow: hidden;
+}
+.clients-label {
+  text-align: center;
+  font-size: 0.55rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 56px;
+}
+.marquee {
+  display: flex;
+  gap: 80px;
+  animation: marqueeScroll 50s linear infinite;
+  width: max-content;
+}
+.marquee img {
+  height: 55px;
+  width: auto;
+  filter: none;
+  opacity: 0.9;
+  transition: all 0.5s ease;
+}
+.marquee img:hover { opacity: 1; transform: scale(1.1); }
+@keyframes marqueeScroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 80px 48px 40px;
+}
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 60px;
+}
+.footer-brand h4 {
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.footer-brand p {
+  font-size: 0.82rem;
+  color: var(--ink-light);
+  line-height: 1.9;
+  max-width: 300px;
+}
+.footer-col h5 {
+  font-family: var(--sans);
+  font-size: 0.6rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 24px;
+}
+.footer-col a {
+  display: block;
+  font-size: 0.82rem;
+  color: var(--ink-light);
+  text-decoration: none;
+  margin-bottom: 12px;
+  transition: color 0.3s ease;
+}
+.footer-col a:hover { color: var(--ink); }
+
+.footer-bottom {
+  max-width: 1200px;
+  margin: 60px auto 0;
+  padding-top: 32px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-copy {
+  font-size: 0.7rem;
+  color: var(--ink-faint);
+}
+.footer-social {
+  display: flex;
+  gap: 24px;
+}
+.footer-social a {
+  font-size: 0.85rem;
+  color: var(--ink-faint);
+  transition: color 0.3s ease;
+}
+.footer-social a:hover { color: var(--ink); }
+
+/* WhatsApp Float */
+.wa-float {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  z-index: 900;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgba(37,211,102,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(37,211,102,0.4);
+  font-size: 1.1rem;
+  background: var(--cream);
+  text-decoration: none;
+  transition: all 0.5s ease;
+  opacity: 0;
+  animation: fadeIn 1s ease 3s forwards;
+}
+.wa-float:hover {
+  border-color: rgba(37,211,102,0.6);
+  color: rgba(37,211,102,0.9);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(37,211,102,0.15);
+}
+
+/* Scroll Reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1.2s cubic-bezier(0.22,1,0.36,1), transform 1.2s cubic-bezier(0.22,1,0.36,1);
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal-left {
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: opacity 1.2s cubic-bezier(0.22,1,0.36,1), transform 1.2s cubic-bezier(0.22,1,0.36,1);
+}
+.reveal-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+.reveal-right {
+  opacity: 0;
+  transform: translateX(30px);
+  transition: opacity 1.2s cubic-bezier(0.22,1,0.36,1), transform 1.2s cubic-bezier(0.22,1,0.36,1);
+}
+.reveal-right.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .site-nav { padding: 20px 24px; }
+  .site-nav.scrolled { padding: 14px 24px; }
+  .nav-links { display: none; }
+  .mobile-toggle { display: block; }
+  
+  .building-scene { width: 400px; height: 550px; }
+  .building-secondary { width: 200px; height: 280px; right: -10%; }
+  .building-tertiary { width: 150px; height: 220px; left: -10%; }
+  
+  .editorial { padding: 0 24px; }
+  .split-section {
+    grid-template-columns: 1fr;
+    gap: 48px;
+    padding: 60px 0;
+  }
+  .split-image img { height: 360px; }
+  .stats-bar { grid-template-columns: repeat(2, 1fr); gap: 40px 20px; }
+  .services-grid { grid-template-columns: 1fr; }
+  .footer-inner { grid-template-columns: 1fr 1fr; gap: 40px; }
+  .quote-section { height: 60vh; }
+}
+
+@media (max-width: 600px) {
+  .hero-title { font-size: 3rem; }
+  .building-scene { width: 300px; height: 420px; }
+  .building-secondary { display: none; }
+  .building-tertiary { display: none; }
+  .footer-inner { grid-template-columns: 1fr; }
+  .footer-bottom { flex-direction: column; gap: 20px; text-align: center; }
+  .stats-bar { grid-template-columns: 1fr 1fr; }
+}
+</style>
+
+</head>
+<body>
+
+<!-- Navigation -->
+<<nav class="site-nav" id="siteNav">
+ <a href="index.html" class="logo">
+            <img src="images/Screenshot 2026-02-17 021736.png" alt="TNR HR Business Solutions Logo" class="logo-img" width="100" height="60">
+        </a>
+  <ul class="nav-links">
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="training.html">Training</a></li>
+    <li><a href="newsletter.html">Newsletter</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <a href="contact.html" class="nav-cta">Book a Consultation</a>
+  <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
+
+</nav>
+
+<!-- ================================================================
+   HERO WITH 3D SCROLL-DRIVEN BUILDING
+   ================================================================ -->
+<section class="hero-3d" id="hero3d">
+  <div class="hero-bg-layer"></div>
+  
+  <!-- 3D Building Scene -->
+  <div class="building-scene" id="buildingScene">
+    
+    <!-- Far back building -->
+    <div class="building-tertiary" id="buildingTertiary">
+      <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80" alt="Corporate building background">
+    </div>
+    
+    <!-- Secondary building -->
+    <div class="building-secondary" id="buildingSecondary">
+      <img src="https://images.pexels.com/photos/18891959/pexels-photo-18891959/free-photo-of-black-and-white-photo-of-wall-of-modern-office-building.jpeg?w=600" alt="Corporate building midground">
+    </div>
+    
+    <!-- Main building -->
+    <div class="building-main" id="buildingMain">
+      <img src="https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?w=800&q=80" alt="Modern corporate building">
+      <div class="building-shadow"></div>
+    </div>
+    
+  </div>
+  
+  <div class="ground-plane"></div>
+  
+  <!-- Hero Text -->
+  <div class="hero-text-overlay">
+    <span class="hero-eyebrow">Westville, South Africa &mdash; Est. 2022</span>
+    <h1 class="hero-title">TNR</h1>
+    <p class="hero-subtitle">
+      Amplifying Your Business Capacity<br>
+      <span style="opacity:0.6;">HR Consulting &nbsp;&middot;&nbsp; Payroll &nbsp;&middot;&nbsp; Workplace Hearings &nbsp;&middot;&nbsp; Recruitment</span>
+    </p>
+  </div>
+  
+  
+</section>
+
+<!-- ================================================================
+   EDITORIAL CONTENT
+   ================================================================ -->
+<div class="editorial">
+
+  <!-- Intro -->
+  <section class="intro-block reveal">
+    <span class="section-label">The Foundation</span>
+    <h2>At the intersection of <em>strategic excellence</em> and human connection, we don't just manage workforces, we cultivate cultures where talent meets opportunity.</h2>
+    <p>Since 2022, TNR HR Business Solutions has been the trusted partner for organisations across South Africa seeking professional HR consulting, payroll management, and workplace governance.</p>
+  </section>
+
+  <!-- Split: About -->
+  <section class="split-section">
+    <div class="split-image reveal-left">
+      <img src="images/1.avif" alt="Professional office interior">
+    </div>
+    <div class="split-text reveal-right">
+      <span class="section-label">01 &mdash; About</span>
+      <h3>Built on <em>Structure</em>,<br>Growing with Purpose</h3>
+      <p>Every great organisation needs a solid foundation. Like the buildings we admire, strong HR practices are built floor by floor, policy by policy, process by process.</p>
+      <p>We work alongside your leadership team to construct HR frameworks that don't just comply with South African labour law, but actively drive your business forward.</p>
+      <div class="meta">18 The Boulevard, Westway Office Park, Westville, 3620</div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats-bar reveal">
+    <div class="stat">
+      <div class="stat-number">4</div>
+      <div class="stat-label">Years of Excellence</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">30+</div>
+      <div class="stat-label">Clients Nationwide</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">4</div>
+      <div class="stat-label">Core Services</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">1</div>
+      <div class="stat-label">Mission: Your Growth</div>
+    </div>
+  </section>
+
+  <!-- Split: Services -->
+  <section class="split-section reverse">
+    <div class="split-image reveal-right">
+      <img src="images/2.webp" alt="Professional team meeting">
+    </div>
+    <div class="split-text reveal-left">
+      <span class="section-label">02 &mdash; Services</span>
+      <h3>Four Pillars of <em>People Management</em></h3>
+      <p>From strategic HR consulting that shapes your organisational culture, to meticulous payroll administration that keeps your team paid accurately and on time.</p>
+      <p>We chair independent workplace hearings with objectivity and rigour, and connect you with exceptional talent through targeted recruitment.</p>
+      <div class="meta">HR Consulting &nbsp;&middot;&nbsp; Payroll &nbsp;&middot;&nbsp; Hearings &nbsp;&middot;&nbsp; Recruitment</div>
+    </div>
+  </section>
+
+  <!-- Services Grid -->
+  <section class="services-section">
+    <div class="services-header reveal">
+      <span class="section-label">What We Do</span>
+      <h2>Our <em>Expertise</em></h2>
+      <p>Comprehensive HR solutions tailored to your organisation's unique needs.</p>
+    </div>
+    <div class="services-grid">
+      <a href="hr-consulting.html" class="service-card reveal">
+        <span class="service-num">01</span>
+        <h3>HR Consulting</h3>
+        <p>Tailored HR strategies, compliance support, and workforce planning to optimise your business performance.</p>
+        <span class="service-arrow">&rarr;</span>
+      </a>
+      <a href="payroll-services.html" class="service-card reveal d1">
+        <span class="service-num">02</span>
+        <h3>Payroll Services</h3>
+        <p>Comprehensive payroll management, benefits administration, and accurate statutory reporting.</p>
+        <span class="service-arrow">&rarr;</span>
+      </a>
+      <a href="Chairing.html" class="service-card reveal d2">
+        <span class="service-num">03</span>
+        <h3>Chairing of Workplace Hearings</h3>
+        <p>Independent, evidence-based hearings with objective findings that protect your business and culture.</p>
+        <span class="service-arrow">&rarr;</span>
+      </a>
+      <a href="Recruitment.html" class="service-card reveal d3">
+        <span class="service-num">04</span>
+        <h3>Recruitment</h3>
+        <p>Targeted recruitment services to find top talent for critical positions in your organisation.</p>
+        <span class="service-arrow">&rarr;</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Quote Section -->
+  <section class="quote-section reveal">
+    <img src="images/4.avif" alt="Modern corporate architecture">
+    <div class="quote-overlay">
+      <blockquote>"The strength of a building lies in its foundation. The strength of a business lies in its people."</blockquote>
+      <cite>&mdash; TNR HR Philosophy</cite>
+    </div>
+  </section>
+
+  <!-- Split: Training -->
+  <section class="split-section">
+    <div class="split-image reveal-left">
+      <img src="images/3.jpg" alt="Professional training session">
+    </div>
+    <div class="split-text reveal-right">
+      <span class="section-label">03 &mdash; Training</span>
+      <h3>Investing in <em>Human Capital</em></h3>
+      <p>Empower your workforce with targeted training programmes designed to elevate skills, ensure compliance, and foster leadership.</p>
+      <p>From labour law workshops to management development, our training solutions are practical, engaging, and immediately applicable.</p>
+      <div class="meta"><a href="training.html" style="color:var(--ink);text-decoration:none;border-bottom:1px solid var(--border);padding-bottom:2px;">Explore Training Programmes &rarr;</a></div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section reveal">
+    <span class="section-label">Begin the Conversation</span>
+    <h2>Partner with <em>TNR HR</em></h2>
+    <p>Professional HR compliance and governance solutions, nationwide.</p>
+    <a href="contact.html" class="cta-btn">Request a Consultation</a>
+  </section>
+
+  <!-- Clients -->
+  <section class="clients-section">
+    <span class="clients-label">Trusted By</span>
+    <div class="marquee">
+      <img src="images/Ngcobo NS Inc.jpg" alt="Ngcobo NS Inc.">
+      <img src="images/MIHNEL Engineers and Civils.png" alt="MIHNEL Engineers and Civils">
+      <img src="images/ILitha Labantu NPO.jpg" alt="ILitha Labantu NPO">
+      <img src="images/Saved Dreams NPO.jpg" alt="Saved Dreams NPO">
+      <img src="images/Inkazimulo Consulting.jpg" alt="Inkazimulo Consulting">
+      <img src="images/Brown Sugar Restaurant.png" alt="Brown Sugar Restaurant">
+      <img src="images/MAAKE Mining Services.png" alt="MAAKE Mining Services">
+      <img src="images/IUA Business Solutions Pty Ltd.jpg" alt="IUA Business Solutions">
+      <img src="images/Enstra Paper Pty Ltd.png" alt="Enstra Paper">
+      <img src="images/Rusmar Packaging Pty Ltd.png" alt="Rusmar Packaging">
+      <img src="images/Computershare.png" alt="Computershare">
+      <img src="images/Corruseal Group.png" alt="Corruseal Group">
+      <img src="images/Durban Container Park.webp" alt="Durban Container Park">
+      <img src="images/Aurum Institute.png" alt="Aurum Institute">
+      <img src="images/NSN.jpeg" alt="NSN">
+      <img src="images/bid consulting.jpeg" alt="bid consulting">
+      <!-- Duplicate for seamless loop -->
+      <img src="images/sappi.jpeg" alt="">
+      <img src="images/MIHNEL Engineers and Civils.png" alt="">
+      <img src="images/ILitha Labantu NPO.jpg" alt="">
+      <img src="images/Saved Dreams NPO.jpg" alt="">
+      <img src="images/Inkazimulo Consulting.jpg" alt="">
+      <img src="images/Brown Sugar Restaurant.png" alt="">
+      <img src="images/MAAKE Mining Services.png" alt="">
+      <img src="images/IUA Business Solutions Pty Ltd.jpg" alt="">
+      <img src="images/Enstra Paper Pty Ltd.png" alt="">
+      <img src="images/Rusmar Packaging Pty Ltd.png" alt="">
+      <img src="images/Computershare.png" alt="">
+      <img src="images/Corruseal Group.png" alt="">
+      <img src="images/Durban Container Park.webp" alt="">
+      <img src="images/Aurum Institute.png" alt="">
+      <img src="images/NSN.jpeg" alt="">
+      <img src="images/bid consulting.jpeg" alt="bid consulting">
+    </div>
+  </section>
+</div>
+
+<!-- Footer -->
+<<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <h4>TNR HR Business Solutions</h4>
+      <p>Professional HR solutions for businesses across South Africa. 18 The Boulevard, Westway Office Park, Westville, 3620.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Navigate</h5>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="training.html">Training</a>
+      <a href="newsletter.html">Newsletter</a>
+    </div>
+    <div class="footer-col">
+      <h5>Services</h5>
+      <a href="hr-consulting.html">HR Consulting</a>
+      <a href="payroll-services.html">Payroll</a>
+      <a href="Chairing.html">Workplace Hearings</a>
+      <a href="Recruitment.html">Recruitment</a>
+    </div>
+    <div class="footer-col">
+      <h5>Contact</h5>
+      <a href="tel:+27630564045">+27 63 056 4045</a>
+      <a href="mailto:Pearl@tnrconsulting.co.za">Pearl@tnrconsulting.co.za</a>
+      <a href="contact.html">Get in Touch</a>
+      <a href="vacancy.html">Careers</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">&copy; 2026 TNR HR Business Solutions Pty Ltd. All Rights Reserved.</span>
+    <div class="footer-social">
+      <a href="https://wa.me/+27630564045" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      <a href="mailto:Pearl@tnrconsulting.co.za" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      <a href="tel:+27630564045" aria-label="Phone"><i class="fas fa-phone"></i></a>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp Float -->
+<a href="https://wa.me/+27630564045" class="wa-float" target="_blank" aria-label="Contact us on WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<script>
+/* ================================================================
+   3D SCROLL-DRIVEN BUILDING ROTATION
+   ================================================================ */
+const buildingScene = document.getElementById('buildingScene');
+const buildingMain = document.getElementById('buildingMain');
+const buildingSecondary = document.getElementById('buildingSecondary');
+const buildingTertiary = document.getElementById('buildingTertiary');
+const hero3d = document.getElementById('hero3d');
+
+let scrollProgress = 0;
+let targetProgress = 0;
+let smoothProgress = 0;
+
+// Smooth scroll tracking
+window.addEventListener('scroll', () => {
+  const scrollY = window.pageYOffset;
+  const vh = window.innerHeight;
+  // Calculate progress based on how far we've scrolled through the hero
+  targetProgress = Math.min(Math.max(scrollY / (vh * 0.8), 0), 1);
+}, { passive: true });
+
+function animateBuilding() {
+  // Smooth interpolation
+  smoothProgress += (targetProgress - smoothProgress) * 0.08;
+  
+  const p = smoothProgress;
+  
+  // ===== MAIN BUILDING =====
+  // Starts centered, rotates on Y axis as we scroll, tilts back on X
+  // Also scales down slightly and moves up
+  const mainRotateY = p * 45; // 0 to 45 degrees
+  const mainRotateX = -p * 15; // 0 to -15 degrees (tilts back)
+  const mainTranslateZ = -p * 200; // Moves back in Z space
+  const mainScale = 1 - (p * 0.15); // Slight scale down
+  const mainTranslateY = -p * 80; // Moves up
+  const mainOpacity = 1 - (p * 0.3); // Fades slightly
+  
+  buildingMain.style.transform = `
+    translateY(${mainTranslateY}px)
+    rotateY(${mainRotateY}deg)
+    rotateX(${mainRotateX}deg)
+    translateZ(${mainTranslateZ}px)
+    scale(${mainScale})
+  `;
+  buildingMain.style.opacity = mainOpacity;
+  
+  // ===== SECONDARY BUILDING (moves opposite direction) =====
+  const secRotateY = -p * 30;
+  const secRotateX = p * 10;
+  const secTranslateX = p * 100;
+  const secTranslateZ = -p * 100;
+  const secScale = 1 - (p * 0.1);
+  
+  buildingSecondary.style.transform = `
+    translateX(${secTranslateX}px)
+    rotateY(${secRotateY}deg)
+    rotateX(${secRotateX}deg)
+    translateZ(${secTranslateZ}px)
+    scale(${secScale})
+  `;
+  
+  // ===== TERTIARY BUILDING (far back, subtle movement) =====
+  const tertRotateY = p * 20;
+  const tertTranslateX = -p * 60;
+  const tertTranslateZ = -p * 300;
+  
+  buildingTertiary.style.transform = `
+    translateX(${tertTranslateX}px)
+    rotateY(${tertRotateY}deg)
+    translateZ(${tertTranslateZ}px)
+  `;
+  
+  // ===== SCENE PERSPECTIVE SHIFT =====
+  // The entire scene rotates slightly as we scroll
+  const sceneRotateX = p * 5;
+  const sceneRotateY = p * -8;
+  
+  buildingScene.style.transform = `
+    translate(-50%, -50%)
+    rotateX(${sceneRotateX}deg)
+    rotateY(${sceneRotateY}deg)
+  `;
+  
+  requestAnimationFrame(animateBuilding);
+}
+
+animateBuilding();
+
+/* ================================================================
+   NAV SCROLL EFFECT
+   ================================================================ */
+const nav = document.getElementById('siteNav');
+
+window.addEventListener('scroll', () => {
+  const currentScroll = window.pageYOffset;
+  if (currentScroll > 100) {
+    nav.classList.add('scrolled');
+  } else {
+    nav.classList.remove('scrolled');
+  }
+}, { passive: true });
+
+/* ================================================================
+   SCROLL REVEAL
+   ================================================================ */
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      revealObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.12, rootMargin: '0px 0px -60px 0px' });
+
+document.querySelectorAll('.reveal, .reveal-left, .reveal-right').forEach(el => {
+  revealObserver.observe(el);
+});
+
+/* ================================================================
+   MOBILE MENU
+   ================================================================ */
+const mobileToggle = document.getElementById('mobileToggle');
+const navLinks = document.querySelector('.nav-links');
+
+mobileToggle.addEventListener('click', () => {
+  const isOpen = navLinks.style.display === 'flex';
+  if (isOpen) {
+    navLinks.style.display = '';
+    navLinks.style.cssText = '';
+  } else {
+    navLinks.style.display = 'flex';
+    navLinks.style.position = 'absolute';
+    navLinks.style.top = '100%';
+    navLinks.style.left = '0';
+    navLinks.style.right = '0';
+    navLinks.style.flexDirection = 'column';
+    navLinks.style.background = 'var(--cream)';
+    navLinks.style.padding = '24px';
+    navLinks.style.borderBottom = '1px solid var(--border)';
+    navLinks.style.gap = '16px';
+  }
+});
+</script>
+
+</body>
+</html>
